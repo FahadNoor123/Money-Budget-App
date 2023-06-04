@@ -1,0 +1,249 @@
+/* #heading{text-align: center;
+    background-color: rgb(194, 187, 187);
+} */
+
+
+
+
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: rgb(160, 7, 160);
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  nav ul li a:active,
+  nav ul li a:focus {
+    border-bottom: 3px solid rgb(160, 7, 160);
+  }
+  
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color:rgb(84, 7, 84);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+#boxparent{
+
+
+width: 400px;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: purple;
+border-radius: 50px;
+color: white;
+position: relative;
+}
+.purbox{
+    /* background-color: purple;
+    height: 150px;
+    width: 400px;
+    border: 2px solid #000; */
+  
+   position: absolute;
+   top: 10px;
+
+    
+}
+#maindiv{
+    display: flex;
+    justify-content: center;
+    
+    height: 30vh;
+  }
+  .edit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .income{
+    height: 40px;
+    width:120px;
+    position: absolute;
+   bottom: 10px;
+   left: 23px;
+   border: 2px solid #fff;
+   border-radius: 10px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+  }
+#Expense{
+    height: 40px;
+    width:120px;
+    
+    position: absolute;
+   bottom: 10px;
+   right: 23px;
+   border: 2px solid #fff;
+   border-radius: 10px;
+   text-align: center;
+
+  }
+  #dashboard{
+    text-align: center;
+}
+#expenses{
+    text-align: center;
+    
+
+}
+#income{
+    text-align: center;
+}
+
+#reports{
+    text-align: center;
+}
+
+#settings{
+    text-align: center;
+}
+
+#expenses{
+    text-align: center;
+}
+
+
+#customexpense{
+    background-color: purple;
+}
+
+#home{
+    border-bottom: 3px solid rgb(160, 7, 160);
+}
+
+#inputepense {
+  height: 25px;
+  width: 50%;
+  font-size: small;
+  background-color: rgb(255, 255, 255);
+}
+#inpAmount{
+  height: 25px;
+  font-size: small;
+}
+#savebtn{
+  height: 25px;
+  background-color:  rgb(160, 7, 160);
+
+  border-radius: 5px;
+  padding-bottom: 30px;
+  color: #f4f4f4;
+}
+#replaceExpanse{
+  display: inline;
+
+  display: inline;
+  position: absolute;
+  top: 35px;
+ left: 120px;
+}
+#replaceAmountss{
+  display: inline;
+  position: absolute;
+  top: 35px;
+  /* left: 450px; */
+  text-align: center;
+}
+#resultss{
+  text-align: center;
+
+  align-items: center;
+  height: 80px;
+  
+  background-color: rgb(160, 7, 160);
+  position: relative;
+  border-radius: 20px;
+  color: #ffffff;
+}
+/* expense wala html folder */
+/* #expensetext{
+margin: auto;
+  height: 30px;
+  width: 400px;
+  border: 2px solid #000;
+} */
+
+
+/* .task{
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+/* } */ */
+/* .yourexpen{
+  width: 100%; */
+  /* border: 1px solid red; */
+/* } */
+
+
+
+
+/* #inpAmount{
+  height: 25px;
+  width: 100%;
+  font-size: small;
+  background-color: aqua;
+} */
+
+

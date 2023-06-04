@@ -1,0 +1,89 @@
+/* #heading{text-align: center;
+    background-color: rgb(194, 187, 187);
+} */
+
+
+
+
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  nav ul li a:active,
+  nav ul li a:focus {
+    border-bottom: 2px solid #333;
+  }
+  
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#inpExpense{
+  height: 25px;
+  width: 100%;
+  font-size: small;
+  background-color: aqua;
+
+}
